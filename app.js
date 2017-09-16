@@ -8,6 +8,7 @@ var bodyParser = require("body-parser");
 var index = require("./routes/index");
 var users = require("./routes/users");
 
+const oldUrl = "https://polar-hamlet-80752.herokuapp.com";
 const redirectUrl = "http://www.ericglover.me";
 
 var app = express();
